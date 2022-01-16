@@ -3,6 +3,8 @@ import React from "react";
 import { Section, SectionText, SectionTitle } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
+import Link from "next/link";
+import { NavLink } from "./HeroStyles.js";
 
 const Hero = () => (
    <Section row nopadding>
@@ -12,11 +14,13 @@ const Hero = () => (
             My Personal Portfolio
          </SectionTitle>
          <SectionText>
-            Im a passionated Web Developer from Germany.
+            I'm a passionated Web-Developer from Germany.
             <br /> I dream in JavaScript, HTML & CSS.
          </SectionText>
          <Button>
-            <a href="#projects">Learn more</a>
+            <Link href="../#projects">
+               <NavLink>Learn more</NavLink>
+            </Link>
          </Button>
       </LeftSection>
    </Section>

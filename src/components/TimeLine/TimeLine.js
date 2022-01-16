@@ -46,7 +46,9 @@ const Timeline = () => {
       <Section id="about">
          <SectionDivider />
          <SectionTitle style={{ marginTop: "20px" }}>About Me</SectionTitle>
-         <SectionText>I'm a problem solver and i like to learn new stuff on a daily bases!</SectionText>
+         <SectionText>
+            To be able to turn complex ideas into reality by using programming skills fascinates me. What I love most about programming is that you never stop learning and always get the chance to improve yourself.
+         </SectionText>
          <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
             <>
                {TimeLineData.map((item, index) => (

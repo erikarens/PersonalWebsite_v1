@@ -85,6 +85,6 @@ export const projects = [
 
 export const TimeLineData = [
    { year: 2019, text: "Founded Netzhero as a side hustle to pursue my passion (Web-Development Business)" },
-   { year: 2021, text: 'Start ILS Education "Geprüfter Web-Entwickler"' },
-   { year: 2022, text: "Finished my edcuation with a grade of 1,2" },
+   { year: 2021, text: 'Started an advanced training to get a professionel qualification "Certified Web-Developer" (Geprüfter Web-Entwickler).' },
+   { year: 2022, text: 'Finished my advanced training with a grade of 1,2 and acquired a diploma with the title "Certified Web-Developer" (Geprüfter Web-Entwickler)' },
 ];

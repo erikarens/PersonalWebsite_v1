@@ -11,7 +11,10 @@ const Technologies = () => (
       <SectionDivider />
       <br />
       <SectionTitle>Technologies</SectionTitle>
-      <SectionText>I'm a Front-End Developer who knows how to interact with tha Back-End of an Web Application.</SectionText>
+      <SectionText>
+         Due to my side hustle "Netzhero" I already had a few projects where I had to work in a team and communicate with the Back-End of a Web-Application. Therefore I know how to combine my obtained skills to bring
+         value to a project.
+      </SectionText>
       <List>
          <ListItem>
             <IoLogoJavascript size="2rem" />
@@ -39,7 +42,7 @@ const Technologies = () => (
                <ListTitle>Other Skills</ListTitle>
                <ListParagraph>
                   Experience with: <br />
-                  Git, Confluence, Jira, Scrum, Kanban,
+                  Git, Confluence, Jira, Scrum, Kanban, WordPress
                </ListParagraph>
             </ListContainer>
          </ListItem>
