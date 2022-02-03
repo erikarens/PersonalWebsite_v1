@@ -19,7 +19,9 @@ const Footer = () => {
          </LinkList>
          <SocialIconsContainer>
             <CompanyContainer>
-               <Slogan>Innovating one prject at a time. - <a href="/impressum">Impressum</a></Slogan>
+               <Slogan>
+                  There are no problems, only solutions. - <a href="/impressum">Impressum</a>
+               </Slogan>
             </CompanyContainer>
             <SocialContainer>
                <SocialIcons href="https://github.com/erikarens">
